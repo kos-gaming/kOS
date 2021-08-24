@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="kOS">
+    <meta name="author" content="kOS">
+    <title>kOS | Bot</title>
+<!-- kOS / k-os.one -->
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.k-os.one/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.k-os.one/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.k-os.one/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.k-os.one/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.k-os.one/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.k-os.one/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.k-os.one/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.k-os.one/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.k-os.one/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://www.k-os.one/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.k-os.one/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.k-os.one/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.k-os.one/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://www.k-os.one/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://www.k-os.one/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+            <nav class="lg:hidden relative z-50">
+                <div class="flex py-2 justify-between items-center px-4">
+                    <div>
+                        <img src="https://www.k-os.one/assets/img/kOS.png" width="50px">
+                    </div>
+                    
+                </div>
+            </nav>
+        
+        <div class="h-full w-full absolute">
+            <div class="container mx-auto px-6">
+                <div class="w-full h-64 rounded">
+                    
+                <div class="container mx-auto">
+                    <div class="w-11/12 xl:w-full mx-auto pt-16">
+                        <div class="pt-4 pb-6 md:pb-8 lg:pb-10 xl:pb-12">
+                            <div class="mt-6 lg:mt-0">
+                    <a href="https://k-os.one/"><button class="transition duration-150 ease-in-out hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 border bg-indigo-700 rounded text-white px-8 py-2 text-sm">Back</button></a>
+                </div>
+                            <p class="text-gray-500 text-lg uppercase leading-tight mb-4"></p>
+                            <h1 class="xl:text-5xl text-3xl font-extrabold text-gray-800">kOS Bot Commands</h1>
+
+                        </div>
+                        <div>
+                            
+                            <div class="relative h-2 bg-gray-200 rounded-lg mb-8 hidden xl:block">
+                                <div id="active" class="transition ease-in-out duration-150 absolute h-2 bg-indigo-700 rounded-lg md:w-16 w-10"></div>
+                            </div>
+
+                            <div class="mx-auto">
+                                <ul class="bg-gray-100 rounded">
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Valorant Wiki:</p>
+                                        <p class="xl:w-10/12 w-full text-gray-600 text-base leading-8"><code>/{agent} /{weapon} /{location}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Valorant Username Db:</p>
+                                        <p class="xl:w-10/12 w-full text-gray-600 text-base leading-8"><code>/whois user {user}: {game}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Server Invite:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>/invite</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Google Search:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>!google {search}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">YouTube Search:</p>
+                                        <p class="xl:w-10/12 w-full text-gray-600 text-base leading-8"><code>!yt {search}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Twitch Search:</p>
+                                        <p class="xl:w-10/12 w-full text-gray-600 text-base leading-8"><code>!twitch {search}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Duel random user:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>/duel</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Magic 8Ball:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>.8ball {question}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Take Note:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>!setnote {yournote} !viewnote !clearnote</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Bot Latency:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>/ping</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Server Event:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>/event {title} {date} {time}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Server Announcement:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>/announce {message}</code></p>
+                                    </li>
+                                    <li class="border-gray-200 border-solid border-b xl:p-8 lg:p-8 md:p-8 sm:p-8 p-4 rounded">
+                                        <p class="text-gray-800 text-2xl xl:w-10/12 w-full mb-4">Bot Command List:</p>
+                                        <p class="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base leading-8"><code>/help /cmd</code></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <footer>
+                <div class="py-16 flex flex-col justify-center items-center">
+                    <a class="focus:outline-none" tabindex="0" role="link" aria-label="home link" href="/">
+                        <img src="https://www.k-os.one/assets/img/kOS.png" width="30px">
+                    </a>
+                    <p tabindex="0" class="focus:outline-none mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">2021 kOS.</p>
+                </div>
+            </footer>
+        </div>
+
+        
+     </div>     
+   </body>
+   </html> 
